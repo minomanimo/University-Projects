@@ -1,0 +1,13 @@
+defaults:
+  base_config: configs/base.yaml
+model:
+  iterations: 500
+  learning_rate: 0.05
+  depth: 6
+  l2_leaf_reg: 3.0
+  loss_function: Logloss
+  eval_metric: F1
+  random_strength: 1.0
+  bagging_temperature: 0.0
+  border_count: 128
+run_name: catboost_expanded

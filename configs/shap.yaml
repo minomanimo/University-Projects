@@ -1,0 +1,5 @@
+defaults:
+  base_config: configs/base.yaml
+model_path: results/models/catboost_expanded.cbm
+max_display: 15
+run_name: shap_analysis

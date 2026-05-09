@@ -1,0 +1,14 @@
+defaults:
+  base_config: configs/base.yaml
+search_space:
+  iterations: [200, 800]
+  learning_rate: [0.01, 0.2]
+  depth: [4, 10]
+  l2_leaf_reg: [1.0, 10.0]
+  random_strength: [0.0, 2.0]
+  bagging_temperature: [0.0, 2.0]
+  border_count: [32, 255]
+optuna:
+  n_trials: 20
+  timeout: null
+run_name: optuna_catboost

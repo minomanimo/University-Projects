@@ -1,0 +1,39 @@
+{
+  "best_params": {
+    "iterations": 493,
+    "learning_rate": 0.1768806972340891,
+    "depth": 10,
+    "l2_leaf_reg": 9.923651827491911,
+    "random_strength": 0.21908197668413543,
+    "bagging_temperature": 0.010747530824685159,
+    "border_count": 105
+  },
+  "validation": {
+    "accuracy": 0.8999170583356373,
+    "f1": 0.4075286415711948,
+    "confusion_matrix": [
+      [
+        6261,
+        127
+      ],
+      [
+        597,
+        249
+      ]
+    ]
+  },
+  "test": {
+    "accuracy": 0.8937299568727193,
+    "f1": 0.35546613011401745,
+    "confusion_matrix": [
+      [
+        7817,
+        168
+      ],
+      [
+        793,
+        265
+      ]
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+wandb/
+catboost_info/
+tea_debug.log
+
+results/models/autogluon/
+
+.venv/
+venv/

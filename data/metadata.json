@@ -1,0 +1,20 @@
+{
+  "n_total_rows": 45211,
+  "n_train_rows": 36168,
+  "n_eval_rows": 9043,
+  "eval_size": 0.2,
+  "random_state": 42,
+  "target_distribution_total": {
+    "no": 0.8830151954170445,
+    "yes": 0.11698480458295547
+  },
+  "target_distribution_train": {
+    "no": 0.8830181375801813,
+    "yes": 0.11698186241981863
+  },
+  "target_distribution_eval": {
+    "no": 0.8830034280659074,
+    "yes": 0.11699657193409267
+  },
+  "drop_duration": true
+}

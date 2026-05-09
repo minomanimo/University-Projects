@@ -1,0 +1,18 @@
+paths:
+  data_dir: data
+  train_csv: data/bank_train.csv
+  test_csv: data/bank_eval.csv
+  schema_json: data/schema.json
+  metadata_json: data/metadata.json
+  split_train_csv: data/train_split.csv
+  split_val_csv: data/val_split.csv
+  results_dir: results
+split:
+  val_size: 0.2
+  random_state: 42
+wandb:
+  project: bank-marketing-assignment
+  mode: offline
+  entity: null
+  tags: [starter]
+seed: 42

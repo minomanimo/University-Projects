@@ -1,0 +1,11 @@
+pandas
+numpy
+scikit-learn
+pyyaml
+matplotlib
+catboost
+shap
+optuna
+autogluon.tabular
+wandb
+joblib

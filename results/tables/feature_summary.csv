@@ -1,0 +1,5 @@
+feature_name,source_columns,feature_type,description
+is_pdays_missing,pdays,numeric,1 if pdays == -1 else 0
+has_previous_contact,previous,numeric,1 if previous > 0 else 0
+log_balance,balance,numeric,log1p(balance + training_shift)
+campaign_group,campaign,categorical,campaign binned into 1 / 2 / 3_to_4 / 5_or_more

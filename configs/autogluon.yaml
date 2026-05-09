@@ -1,0 +1,7 @@
+defaults:
+  base_config: configs/base.yaml
+autogluon:
+  presets: medium_quality
+  eval_metric: f1
+  time_limit: 300
+run_name: autogluon_benchmark

@@ -1,0 +1,7 @@
+defaults:
+  base_config: configs/base.yaml
+model:
+  C: 1.0
+  max_iter: 1000
+  class_weight: balanced
+run_name: linear_baseline
